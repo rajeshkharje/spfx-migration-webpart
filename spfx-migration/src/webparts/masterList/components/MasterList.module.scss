@@ -1,0 +1,76 @@
+.masterList {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgb(0 0 0 / 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.searchcontainer {
+  margin-bottom: 20px;
+}
+
+.searchinput {
+  width: 100%;
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  font-family: inherit;
+  color: #333;
+  transition: border-color 0.3s ease;
+}
+
+.searchinput:focus {
+  outline: none;
+  border-color: #0078d4;
+  box-shadow: 0 0 0 2px rgb(0 120 212 / 0.3);
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.filterrow {
+  background-color: #f9f9f9;
+}
+
+.filterinput {
+  width: 100%;
+  padding: 6px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 13px;
+  font-family: inherit;
+  color: #333;
+}
+
+.filterinput:focus {
+  outline: none;
+  border-color: #0078d4;
+  box-shadow: 0 0 0 2px rgb(0 120 212 / 0.3);
+}
+
+.button {
+  background-color: #0078d4;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+}
+
+.button:hover {
+  background-color: #005a9e;
+}
