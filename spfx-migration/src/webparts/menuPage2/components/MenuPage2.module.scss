@@ -1,0 +1,33 @@
+.menuPage2 {
+  .container {
+    max-width: 700px;
+    margin: 0 auto;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+  }
+
+  .welcome {
+    text-align: center;
+    padding: 20px;
+
+    h2 {
+      font-size: 24px;
+      font-weight: 100;
+      color: #323130;
+    }
+  }
+
+  .description {
+    text-align: center;
+    color: #323130;
+    font-size: 17px;
+    font-weight: 300;
+    margin: 16px 0;
+  }
+
+  .teams {
+    .welcome {
+      background-color: #106ebe;
+      color: #ffffff;
+    }
+  }
+}
