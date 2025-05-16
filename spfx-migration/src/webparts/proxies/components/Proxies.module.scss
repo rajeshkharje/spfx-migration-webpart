@@ -1,0 +1,104 @@
+.proxies {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgb(0 0 0 / 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.header {
+  font-weight: 600;
+  color: #337ab7;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.inputGroup {
+  margin-bottom: 15px;
+}
+
+.inputLabel {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.inputField {
+  width: 100%;
+  padding: 6px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.buttonPrimary {
+  background-color: #337ab7;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.buttonPrimary:hover {
+  background-color: #286090;
+}
+
+.messageSuccess {
+  color: #3c763d;
+  background-color: #dff0d8;
+  padding: 10px;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+.messageError {
+  color: #a94442;
+  background-color: #f2dede;
+  padding: 10px;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+.proxiesList {
+  margin-top: 20px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th,
+.table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.table th {
+  background-color: #f5f5f5;
+  font-weight: 600;
+  text-align: left;
+}
+
+.table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.table tr:hover {
+  background-color: #f1f1f1;
+}
+
+.deleteButton {
+  background-color: transparent;
+  border: none;
+  color: #a94442;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.deleteButton:hover {
+  color: #843534;
+}
